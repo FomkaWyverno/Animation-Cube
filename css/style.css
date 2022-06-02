@@ -67,13 +67,34 @@ td {
 }
 
 .cube {
-  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .cube div {
-  width: 100px;
+  display: flex;
+}
+
+.cube div div {
   height: 100px;
+  width: 100px;
   background-color: #fff;
+}
+
+.cube__part-left {
+  margin-right: 2.5px;
+}
+
+.cube__part-right {
+  margin-left: 2.5px;
+}
+
+.cube__top {
+  margin-bottom: 2.5px;
+}
+
+.cube__bottom {
+  margin-top: 2.5px;
 }
 
 body {

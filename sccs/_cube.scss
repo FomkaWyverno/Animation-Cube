@@ -1,11 +1,28 @@
 .cube {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    //transform: rotate(45deg);
     & div {
-        width: 100px;
-        height: 100px;
-        background-color: #fff;
+        display: flex;
+        & div {
+            height: 100px;
+            width: 100px;
+            background-color: #fff;
+        }
     }
-    &__element {
+    &__part {
+        &-left {
+            margin-right: 2.5px;
+        }
+        &-right {
+            margin-left: 2.5px;
+        }
+    }
+    &__top {
+        margin-bottom: 2.5px;
+    }
+    &__bottom {
+        margin-top: 2.5px;
     }
 }
 
