@@ -7,13 +7,13 @@
     position: relative;
     width: 200px;
     height: 200px;
-    //transform: rotate(45deg);
+    transform: rotate(45deg);
     div {
         position: absolute;
         width: 100px;
         height: 100px;
         background-color: #fff;
-        box-shadow: #9c9c9c 2.5px 2.5px 15px;
+        box-shadow: #97cacf 2.5px 2.5px 15px;
     }
     &__left-top {
         left: $distanse-element;

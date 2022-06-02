@@ -128,17 +128,17 @@ td {
 
 @keyframes cube-rotate {
   0% {
-    transform: rotate(90deg);
+    transform: rotate(45deg);
   }
   100% {
-    transform: rotate(180deg);
+    transform: rotate(135deg);
   }
 }
 
 @keyframes cube-start-left-top {
   0% {
     left: -100px;
-    top: -100px;
+    top: -50px;
   }
   100% {
     left: -2.5px;
@@ -149,7 +149,7 @@ td {
 @keyframes cube-start-left-bottom {
   0% {
     left: -100px;
-    bottom: -100px;
+    bottom: -50px;
   }
   100% {
     left: -2.5px;
@@ -160,7 +160,7 @@ td {
 @keyframes cube-start-right-top {
   0% {
     right: -100px;
-    top: -100px;
+    top: -50px;
   }
   100% {
     right: -2.5px;
@@ -171,7 +171,7 @@ td {
 @keyframes cube-start-right-bottom {
   0% {
     right: -100px;
-    bottom: -100px;
+    bottom: -50px;
   }
   100% {
     right: -2.5px;
@@ -185,6 +185,7 @@ td {
   position: relative;
   width: 200px;
   height: 200px;
+  transform: rotate(45deg);
 }
 
 .cube div {
@@ -192,7 +193,7 @@ td {
   width: 100px;
   height: 100px;
   background-color: #fff;
-  box-shadow: #9c9c9c 2.5px 2.5px 15px;
+  box-shadow: #97cacf 2.5px 2.5px 15px;
 }
 
 .cube__left-top {
