@@ -126,6 +126,15 @@ td {
   }
 }
 
+@keyframes cube-rotate {
+  0% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
 .cube {
   display: flex;
   flex-direction: column;
@@ -164,6 +173,10 @@ td {
   right: -2.5px;
   bottom: -2.5px;
   animation: cube-passive-right-bottom 1s ease infinite;
+}
+
+.cube-rotate {
+  animation: cube-rotate 3s linear infinite;
 }
 
 body {
