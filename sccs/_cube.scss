@@ -1,28 +1,40 @@
+@import "animation-cube";
+@import "variables";
+
 .cube {
     display: flex;
     flex-direction: column;
+    position: relative;
+    width: 200px;
+    height: 200px;
     //transform: rotate(45deg);
-    & div {
-        display: flex;
-        & div {
-            height: 100px;
-            width: 100px;
-            background-color: #fff;
-        }
+    
+    div {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: #fff;
+        box-shadow: #9c9c9c 2.5px 2.5px 15px;
     }
-    &__part {
-        &-left {
-            margin-right: 2.5px;
-        }
-        &-right {
-            margin-left: 2.5px;
-        }
+    &__left-top {
+        left: $distanse-element;
+        top: $distanse-element;
+        animation: cube-passive-left-top 1s ease infinite;
     }
-    &__top {
-        margin-bottom: 2.5px;
+    &__left-bottom {
+        left: $distanse-element;
+        bottom: $distanse-element;
+        animation: cube-passive-left-bottom 1s ease infinite;
     }
-    &__bottom {
-        margin-top: 2.5px;
+    &__right-top {
+        right: $distanse-element;
+        top: $distanse-element;
+        animation: cube-passive-right-top 1s ease infinite;
+    }
+    &__right-bottom {
+        right: $distanse-element;
+        bottom: $distanse-element;
+        animation: cube-passive-right-bottom 1s ease infinite;
     }
 }
 

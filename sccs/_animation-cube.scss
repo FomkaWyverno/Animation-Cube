@@ -1,0 +1,60 @@
+@import "variables";
+
+@keyframes cube-passive-left-top {
+    0% {
+        left: $distanse-element-min;
+        top: $distanse-element-min;
+    }
+    50% {
+        left: $distanse-element-max;
+        top: $distanse-element-max;
+    }
+    100% {
+        left: $distanse-element-min;
+        top: $distanse-element-min;
+    }
+}
+
+@keyframes cube-passive-left-bottom {
+    0% {
+        left: $distanse-element-min;
+        bottom: $distanse-element-min;
+    }
+    50% {
+        left: $distanse-element-max;
+        bottom: $distanse-element-max;
+    }
+    100% {
+        left: $distanse-element-min;
+        bottom: $distanse-element-min;
+    }
+}
+
+@keyframes cube-passive-right-top {
+    0% {
+        right: $distanse-element-min;
+        top: $distanse-element-min;
+    }
+    50% {
+        right: $distanse-element-max;
+        top: $distanse-element-max;
+    }
+    100% {
+        right: $distanse-element-min;
+        top: $distanse-element-min;
+    }
+}
+@keyframes cube-passive-right-bottom {
+    0% {
+        right: $distanse-element-min;
+        bottom: $distanse-element-min;
+    }
+    50% {
+        right: $distanse-element-max;
+        bottom: $distanse-element-max;
+    }
+    100% {
+        right: $distanse-element-min;
+        bottom: $distanse-element-min;
+    }
+}
