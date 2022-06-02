@@ -65,4 +65,20 @@ td {
   text-align: center;
   padding: 0;
 }
+
+.cube {
+  position: relative;
+}
+
+.cube div {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /*# sourceMappingURL=style.css.map */
