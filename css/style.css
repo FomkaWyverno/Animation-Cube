@@ -135,6 +135,50 @@ td {
   }
 }
 
+@keyframes cube-start-left-top {
+  0% {
+    left: -100px;
+    top: -100px;
+  }
+  100% {
+    left: -2.5px;
+    top: -2.5px;
+  }
+}
+
+@keyframes cube-start-left-bottom {
+  0% {
+    left: -100px;
+    bottom: -100px;
+  }
+  100% {
+    left: -2.5px;
+    bottom: -2.5px;
+  }
+}
+
+@keyframes cube-start-right-top {
+  0% {
+    right: -100px;
+    top: -100px;
+  }
+  100% {
+    right: -2.5px;
+    top: -2.5px;
+  }
+}
+
+@keyframes cube-start-right-bottom {
+  0% {
+    right: -100px;
+    bottom: -100px;
+  }
+  100% {
+    right: -2.5px;
+    bottom: -2.5px;
+  }
+}
+
 .cube {
   display: flex;
   flex-direction: column;
@@ -154,29 +198,45 @@ td {
 .cube__left-top {
   left: -2.5px;
   top: -2.5px;
-  animation: cube-passive-left-top 1s ease infinite;
+  animation: cube-start-left-top 3s ease 1;
 }
 
 .cube__left-bottom {
   left: -2.5px;
   bottom: -2.5px;
-  animation: cube-passive-left-bottom 1s ease infinite;
+  animation: cube-start-left-bottom 3s ease 1;
 }
 
 .cube__right-top {
   right: -2.5px;
   top: -2.5px;
-  animation: cube-passive-right-top 1s ease infinite;
+  animation: cube-start-right-top 3s ease 1;
 }
 
 .cube__right-bottom {
   right: -2.5px;
   bottom: -2.5px;
-  animation: cube-passive-right-bottom 1s ease infinite;
+  animation: cube-start-right-bottom 3s ease 1;
 }
 
 .cube-rotate {
   animation: cube-rotate 3s linear infinite;
+}
+
+.left-top-passive {
+  animation: cube-passive-left-top 1s ease infinite;
+}
+
+.right-top-passive {
+  animation: cube-passive-right-top 1s ease infinite;
+}
+
+.left-bottom-passive {
+  animation: cube-passive-left-bottom 1s ease infinite;
+}
+
+.right-bottom-passive {
+  animation: cube-passive-right-bottom 1s ease infinite;
 }
 
 body {
