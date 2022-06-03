@@ -220,8 +220,16 @@ td {
   animation: cube-start-right-bottom 3s ease 1;
 }
 
+.cube-start-reverse {
+  animation-direction: reverse;
+}
+
 .cube-rotate {
   animation: cube-rotate 3s linear infinite;
+}
+
+.cube-rotate-paused {
+  animation-play-state: paused;
 }
 
 .left-top-passive {

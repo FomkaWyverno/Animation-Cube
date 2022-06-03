@@ -37,8 +37,16 @@
     }
 }
 
+.cube-start-reverse {
+    animation-direction: reverse;
+}
+
 .cube-rotate {
     animation: cube-rotate $rotate-second-animation linear infinite;
+}
+
+.cube-rotate-paused {
+    animation-play-state: paused;
 }
 
 .left-top-passive {
