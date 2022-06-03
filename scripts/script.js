@@ -12,4 +12,7 @@ setTimeout(() => {
     setTimeout(() => {
         cube_element.classList.add("cube-rotate");
     },100);
+    cube_element.addEventListener('click',event => {
+        console.log('click');
+    });
 },2900);

@@ -18,38 +18,38 @@
     &__left-top {
         left: $distanse-element;
         top: $distanse-element;
-        animation: cube-start-left-top 3s ease 1;
+        animation: cube-start-left-top $start-second-animation ease 1;
     }
     &__left-bottom {
         left: $distanse-element;
         bottom: $distanse-element;
-        animation: cube-start-left-bottom 3s ease 1;
+        animation: cube-start-left-bottom $start-second-animation ease 1;
     }
     &__right-top {
         right: $distanse-element;
         top: $distanse-element;
-        animation: cube-start-right-top 3s ease 1;
+        animation: cube-start-right-top $start-second-animation ease 1;
     }
     &__right-bottom {
         right: $distanse-element;
         bottom: $distanse-element;
-        animation: cube-start-right-bottom 3s ease 1;
+        animation: cube-start-right-bottom $start-second-animation ease 1;
     }
 }
 
 .cube-rotate {
-    animation: cube-rotate 3s linear infinite;
+    animation: cube-rotate $rotate-second-animation linear infinite;
 }
 
 .left-top-passive {
-    animation: cube-passive-left-top 1s ease infinite;
+    animation: cube-passive-left-top $passive-second-animation ease infinite;
 }
 .right-top-passive {
-    animation: cube-passive-right-top 1s ease infinite; 
+    animation: cube-passive-right-top $passive-second-animation ease infinite; 
 }
 .left-bottom-passive {
-    animation: cube-passive-left-bottom 1s ease infinite;
+    animation: cube-passive-left-bottom $passive-second-animation ease infinite;
 }
 .right-bottom-passive {
-    animation: cube-passive-right-bottom 1s ease infinite;
+    animation: cube-passive-right-bottom $passive-second-animation ease infinite;
 }
