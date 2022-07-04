@@ -50,14 +50,19 @@
 }
 
 .left-top-passive {
-    animation: cube-passive-left-top $passive-second-animation ease infinite;
+    animation: cube-passive-left-top ease infinite;
 }
 .right-top-passive {
-    animation: cube-passive-right-top $passive-second-animation ease infinite; 
+    animation: cube-passive-right-top ease infinite; 
 }
 .left-bottom-passive {
-    animation: cube-passive-left-bottom $passive-second-animation ease infinite;
+    animation: cube-passive-left-bottom ease infinite;
 }
 .right-bottom-passive {
-    animation: cube-passive-right-bottom $passive-second-animation ease infinite;
+    animation: cube-passive-right-bottom ease infinite;
+}
+
+
+.passive_cube {
+    animation-duration: $passive-second-animation;
 }

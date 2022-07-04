@@ -233,19 +233,23 @@ td {
 }
 
 .left-top-passive {
-  animation: cube-passive-left-top 2s ease infinite;
+  animation: cube-passive-left-top ease infinite;
 }
 
 .right-top-passive {
-  animation: cube-passive-right-top 2s ease infinite;
+  animation: cube-passive-right-top ease infinite;
 }
 
 .left-bottom-passive {
-  animation: cube-passive-left-bottom 2s ease infinite;
+  animation: cube-passive-left-bottom ease infinite;
 }
 
 .right-bottom-passive {
-  animation: cube-passive-right-bottom 2s ease infinite;
+  animation: cube-passive-right-bottom ease infinite;
+}
+
+.passive_cube {
+  animation-duration: 2s;
 }
 
 body {
